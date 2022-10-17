@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./css/imagens/yo.jpg" alt="foto de perfil" />
+        <h1 class="nome">Yo-yo</h1>
+        <h2 class="cargo">Etical Hacker</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./css/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./css/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Oi! sou o Yo-yo, seja bem-vindo(a)!</p>
+
+              <p>
+                Sou uma pessoa apaixonada pelo Hacking e
+                programação desde pequeno. Sempre tive o 
+                sonho de trabalhar com cibersegurança e
+                atualmente comecei a colocar esse sonho 
+                em prática estudando na TDI. Tenho conhescimentos em
+                <span>HTML, CSS, JavaScript e Python</span>. Gosto muito de café (até demais), 
+                e meus principais hobbies são jogar 
+                Call of Duty moblie, ver animes/mangá.
+                (Não contem a minha mãe que sou Hacker!!).
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://docs.google.com/document/d/1y29qJelptW_dI6KlpK9LLGVusSQfaGkfQ6sTuH9CJcM/edit?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/dev-em-dobro/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/devemdobro" target="_blank" class="github">GitHub</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </main>
+   <div class="botn">
+   <audio control id="music" src="https://res.cloudinary.com/dqjhiewf1/video/upload/v1634587359/yt1s.com_-_EMELINE_SMLE_flowers_sex_Lyrics_guchbh.mp3" loop></audio> 
+    <button class="btn" onclick="handleClick()"><span class="mb-1 iconify" data-icon="fluent:headphones-sound-wave-20-filled"></span>
+    </button>
+   </div>
+
+    <!--<audio id="myAudio">
+    <source src="https://res.cloudinary.com/dqjhiewf1/video/upload/v1634587359/yt1s.com_-_EMELINE_SMLE_flowers_sex_Lyrics_guchbh.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="btn1" onclick="playAudi()" type="button"> <span class="mb-1 iconify" data-icon="fluent:headphones-sound-wave-20-filled"></span> </button>
+    <button class="btn2" onclick="pauseAudio()" type="button"> <span class="mb-1 iconify" data-icon="mingcute:pause-line"></span> </button> 
+  -->
+    <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="../src/js/index.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
